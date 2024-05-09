@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class Scope {
 
     /*static void a() {

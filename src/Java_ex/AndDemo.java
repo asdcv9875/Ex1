@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class AndDemo { //논리연산자
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class SwitchDemo {
 
     public static void main(String[] args) {

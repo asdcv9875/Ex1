@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class LoopDepthDemo {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) { // 두자리 숫자가 출력이 되는데 여기는 십의 자리

@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class LoopDemo1 {
 
     public static void main(String[] args) {

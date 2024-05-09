@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class LoopDemo { //반복문
     public static void main(String[] args) {
         while (true) { //()안에는 조건 언제까지 반복할 것인가
@@ -15,28 +17,8 @@ public class LoopDemo { //반복문
 
     }
 }
-/*public class LoopDemo1 {
 
-    public static void main(String[] args) {
-        for (int i = 3; i < 100; i = i*2) { //3부터 100까지 i에 2를 곱한 값을 출력
-            System.out.println("늘어난다!" + i);
-        }
-    }
-}*/
-/*
-public class LoopDemo2 {
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            if (i == 5) //i의 값이 5와 같을 때 반복을 멈춘다
-                //break;
-                continue; // 5가 되기 전까지 실행 됐다가 continue를 만나면 5 다음부터 이어서 실행한다.
-            System.out.println("Coding Everybody " + i);
-        }
-
-    }
-}
-*/
-/*public class LoopDepthDemo {
+/*public class Java_ex.LoopDepthDemo {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) { // 두자리 숫자가 출력이 되는데 여기는 십의 자리
             // 0부터1까지 반복

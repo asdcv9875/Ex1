@@ -1,3 +1,5 @@
+package Java_ex;
+
 public class Method {
 //   public static void numbering() {
 //        /* int i = 0;
@@ -29,8 +31,8 @@ public class Method {
 
     //출력값
 
-    /*public static String numbering(int init, int limit) {
-        *//*int i = init;
+    public static String numbering(int init, int limit) {
+        int i = init;
         // 만들어지는 숫자들을 output이라는 변수에 담기 위해서 변수에 빈 값을 주었다.
         String output = "";
         while (i < limit) {
@@ -47,6 +49,6 @@ public class Method {
         // numbering이 리턴한 값은 변수 result에 담긴다.
         String result = numbering(1, 5);
         System.out.println(result);
-    }*/
+    }
 }
 

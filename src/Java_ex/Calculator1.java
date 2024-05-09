@@ -1,9 +1,11 @@
-public class Calculator {
+package Java_ex;
+
+public class Calculator1 {
    /* //class 는  calculator라는 객체의 설계도를 컴퓨터에게 알려준다는 의미
     int left, right;
 
     public void setOprands(int left, int right) {
-        //this. 는 Calculator 클래스로부터 생성된 c1의 인스턴스를 가리킴 !이해 어려움
+        //this. 는 Java_ex.Calculator 클래스로부터 생성된 c1의 인스턴스를 가리킴 !이해 어려움
         this.left = left;
         this.right = right;
     }
@@ -17,12 +19,12 @@ public class Calculator {
     }
     public static void main(String[] args) {
 
-        Calculator c1 = new Calculator();
+        Java_ex.Calculator c1 = new Java_ex.Calculator();
         c1.setOprands(10, 20); //setOprands의 값의 각각 숫자를 담는다.
         c1.sum();
         c1.avg();
 
-        Calculator c2 = new Calculator();
+        Java_ex.Calculator c2 = new Java_ex.Calculator();
         c2.setOprands(20, 40);
         c2.sum();
         c2.avg();
@@ -46,13 +48,13 @@ public class Calculator {
       }
       public static void main(String[] args) {
 
-          Calculator c1 = new Calculator();
+          Java_ex.Calculator c1 = new Java_ex.Calculator();
           System.out.println(c1.PI);
 
-          Calculator c2 = new Calculator();
+          Java_ex.Calculator c2 = new Java_ex.Calculator();
           System.out.println(c2.PI);
 
-          System.out.println(Calculator.PI);
+          System.out.println(Java_ex.Calculator.PI);
 
       }*/
   /*static double PI = 3.14;
@@ -76,18 +78,18 @@ public class Calculator {
     }
     public static void main(String[] args) {
 
-        Calculator c1 = new Calculator();
+        Java_ex.Calculator c1 = new Java_ex.Calculator();
         c1.setOprands(10, 20);
         // 30 출력
         c1.sum();
 
-        Calculator c2 = new Calculator();
+        Java_ex.Calculator c2 = new Java_ex.Calculator();
         c2.setOprands(20, 40);
         // 60 출력
         c2.sum();
 
         // 클래스 변수 base의 기본값을 10으로 지정했다.
-        Calculator.base = 10;
+        Java_ex.Calculator.base = 10;
 
         // 40 출력
         c1.sum();
@@ -103,11 +105,11 @@ public class Calculator {
         System.out.println((left+right)/2);
     }
     public static void main(String[] args) {
-        Calculator.sum(10, 20);
-        Calculator.avg(10, 20);
+        Java_ex.Calculator.sum(10, 20);
+        Java_ex.Calculator.avg(10, 20);
 
-        Calculator.sum(20, 40);
-        Calculator.avg(20, 40);
+        Java_ex.Calculator.sum(20, 40);
+        Java_ex.Calculator.avg(20, 40);
     }*/
     class C1 {
         static int static_variable = 1; //스태틱 변수
